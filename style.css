@@ -35,6 +35,16 @@ p {
     margin-bottom: 5px;
 }
 
+.topmargin {
+    margin-top: 15px;
+    padding-right: 0;
+}
+
+.padding0 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 .centered {
     text-align: center;
 }
@@ -53,28 +63,38 @@ p {
     opacity: 0.6;
 }
 
+.transboxname {
+    margin-top: 18px;
+    margin-bottom: 18px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: lightsteelblue;
+    border: 1px solid black;
+    opacity: 0.6;
+}
+
 .transboxsmallbox {
     margin-top: 18px;
     margin-bottom: 18px;
     margin-left: 30px;
     margin-right: 0px;
-    background-color: #ffffff;
+    background-color: lightsteelblue;
     border: 1px solid black;
     opacity: 0.6;
 }
 
-.transboxaboutme {
+.transboxbigbox {
     margin-top: 18px;
-    margin-bottom: 0px;
+    margin-bottom: 18px;
     margin-left: 30px;
     margin-right: 30px;
-    background-color: #ffffff;
+    background-color: lightsteelblue;
     border: 1px solid black;
     opacity: 0.6;
 }
 
 .transboxlearnmore {
-    margin-top: 0px;
+    margin-top: 18px;
     margin-bottom: 0px;
     margin-left: 30px;
     margin-right: 30px;
@@ -84,12 +104,16 @@ p {
 }
 
 #name {
-    font-family: 'Euphoria Script';font-size: 80px;
+    font-family: 'Euphoria Script';font-size: 150px;
     margin-top: 20px;
 }
 
 #bottomofcolumn {
     margin-bottom: 5px;
+}
+
+#byulogo {
+    margin-left: 39px;
 }
 
 /* html, body are selectors 

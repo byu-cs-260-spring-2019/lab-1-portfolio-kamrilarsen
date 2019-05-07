@@ -2,16 +2,29 @@
 <html lang="en">
 <head>
         
+    <link href='https://fonts.googleapis.com/css?family=Euphoria Script' rel='stylesheet'>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href='https://fonts.googleapis.com/css?family=Bubbler One' rel='stylesheet'>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-    <link href='https://fonts.googleapis.com/css?family=Euphoria Script' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Bubbler One' rel='stylesheet'>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Kamri's Portfolio</title>
 </head>
 <body>
-    <h1 class="centered transbox" id="name">Kamri Larsen</h1>
-    <div class="transboxaboutme">
+    <div class="container-fluid">
+        <div class="row justify-content-start">
+            <div class="col-sm-7 transboxname">
+                <h1 class="centered" id="name">Kamri Larsen</h1>
+            </div>
+            <div class="col-sm-4 topmargin">
+                <div class="w3-container">
+                    <img src="Images/ProfilePicture.jpg" class="w3-border" alt="Norway" style="padding:4px;width:40%">
+                    <img src="Images/BYU.png" alt="Norway" style="padding:4px;width:50%" id="byulogo">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="transbox">
         <h2 class="centered">About Me</h2>
         <p class="margin1">I am a sophmore at BYU majoring in Mathematics, and I am also pursuing a minor in Computer 
             Science. I love anything outdoors, including running, hiking, sports, gardening, and simply enjoying nature. 
@@ -20,33 +33,35 @@
             contribute to various teams.
         </p>
     </div>
+    
+
     <div class="container-fluid ">
         <div class="row justify-content-start">
-          <div class="col-sm-7 transbox">
-            <h2 class="centered">Work Experience</h2>
-            <h4>Classes I have taken</h4>
-            <ul>
-                <li>Introduction to Programming</li>
-                <li>Data Structures</li>
-                <li>Discrete Mathematics</li>
-                <li>Web Programming</li>
-            </ul>
-            <h4>Activities I have participated in</h4>
-            <ul id="bottomofcolumn">
-                <li>BYU 2019 Hackathon</li>
-                <li>Tutoring other students in Computer Science courses</li>
-            </ul>
+            <div class="col-sm-7 transboxbigbox">
+                <h2 class="centered">Work Experience</h2>
+                <h4>Classes I have taken</h4>
+                <ul>
+                    <li>Introduction to Programming</li>
+                    <li>Data Structures</li>
+                    <li>Discrete Mathematics</li>
+                    <li>Web Programming</li>
+                </ul>
+                <h4>Activities I have participated in</h4>
+                <ul id="bottomofcolumn">
+                    <li>BYU 2019 Hackathon</li>
+                    <li>Tutoring other students in Computer Science courses</li>
+                </ul>
+            </div>
+            <div class="col-sm-4 transboxsmallbox">
+                <h2 class="centered">Example Projects</h2>
+                <ol>
+                    <li><a href="https://cs260projects-larsen.firebaseapp.com/Lab1/Project1.html">Description of Project 1</a></li>
+                    <li><a href="https://cs260projects-larsen.firebaseapp.com/Lab1/Project2.html">Description of Project2</a></li>
+                    <li><a href="https://cs260projects-larsen.firebaseapp.com/Lab1/Project3.html">Description of Project3</a></li>
+                </ol>
+            </div>
         </div>
-          <div class="col-sm-4 transboxsmallbox">
-              <h2>Example Projects</h2>
-            <ol>
-                <li><a href="https://cs260projects-larsen.firebaseapp.com/Lab1/Project1.html">Description of Project 1</a></li>
-                <li><a href="https://cs260projects-larsen.firebaseapp.com/Lab1/Project2.html">Description of Project2</a></li>
-                <li><a href="https://cs260projects-larsen.firebaseapp.com/Lab1/Project3.html">Description of Project3</a></li>
-            </ol>
-        </div>
-        </div>
-      </div>
+    </div>
 
     <h2 class="centered transboxlearnmore">Learn More at my <a href="https://github.com/kamrilarsen/">GitHub profile</a></h2>
     
